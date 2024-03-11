@@ -108,7 +108,7 @@
 }
 
 .car-img:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 @media only screen and (min-width: 769px) {
