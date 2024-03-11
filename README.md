@@ -9,7 +9,6 @@ The project can be deployed using Vercel or previewed live at [Vercel](https://v
 ## Features
 
 - Filter cars by body type
-- Search cars by model name
 
 ## Running the Project
 
