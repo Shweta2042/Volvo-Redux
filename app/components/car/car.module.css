@@ -11,6 +11,12 @@
   justify-content: center;
 }
 
+.button-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .car-filter-text {
   text-transform: uppercase;
   font-style: normal;
