@@ -4,7 +4,7 @@ This is a simple project that demonstrates the usage of Next.js with TypeScript 
 
 ## Deployment
 
-The project can be deployed using Vercel or previewed live at [Vercel](https://volvo-cars-jade.vercel.app/).
+The project can be deployed using Vercel or previewed live at [Vercel](https://volvo-redux.vercel.app/).
 
 ## Features
 
