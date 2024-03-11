@@ -82,7 +82,10 @@ export const CarCounter = () => {
             }}
             className={`${styles['car-filter-text']} ${selectedKey === key ? styles['active'] : ''}`}
           >
-            {`${key} (${value})`}
+             <div className={styles['button-content']}>
+              <div className={styles['key']}>{key}</div>
+              <div className={styles['value']}>({value})</div>
+            </div>
           </button>
         ))}
       </div>
