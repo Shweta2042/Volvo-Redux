@@ -104,11 +104,12 @@
 .car-img {
   width: 95%;
   max-height: 300px;
+  transition: transform 0.2s ease;
   max-width: 400px;
 }
 
 .car-img:hover {
-    transform: scale(1.05);
+   transform: scale(1.05);
 }
 
 @media only screen and (min-width: 769px) {
