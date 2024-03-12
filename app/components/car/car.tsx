@@ -91,13 +91,15 @@ export const CarCounter = () => {
       </div>
       <Slider ref={customSlider} {...settings}>
         {cars.map((t, index) => (
-          <div key={index} aria-hidden="true" tabIndex={-1} className={styles["car-list"]}>
+          <a  href={`/${t?.id}/learn`} key={index} aria-hidden="true" tabIndex={-1} className={styles["car-list"]}>
             <div className={styles["body-type-text"]}>{t?.bodyType}</div>
             <div className={styles["model"]}>
               <div className={styles["model-name-text"]}>{t?.modelName}</div>
               <span className={styles["model-type-text"]} role="img" aria-label="from"> {t?.modelType}</span>
             </div>
+            <div className={styles["car-img-container"]}>
             <img src={t?.imageUrl} alt={t?.modelName} className={styles["car-img"]} />
+            </div>
             <div className={styles["link"]}>
               <div className={styles["link-type"]}>
                 <Link href={`/${t?.id}/learn`} className={styles["link-text"]}>
@@ -112,7 +114,7 @@ export const CarCounter = () => {
                 <ChevronCircleSmall />
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </Slider>
       <div className={styles["button-nav"]}>
@@ -126,4 +128,3 @@ export const CarCounter = () => {
     </div>
   );
 };
-
